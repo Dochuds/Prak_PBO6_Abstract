@@ -1,0 +1,22 @@
+public class TestAbstrac {
+
+    public static void main(String[] args) {
+
+        Weapon knife = new Knife();
+        Weapon gun = new Gun(10);
+
+        knife.attack();
+        
+        gun.attack();
+        gun.attack();
+
+        Knife knife2 = new Knife();
+        Weapon gun2 = new Gun(10);
+
+        knife2.attack();
+        
+        gun2.attack();
+        gun2.attack();
+    }
+    
+}
